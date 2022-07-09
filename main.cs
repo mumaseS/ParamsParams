@@ -9,7 +9,7 @@ class Program {
   Console.WriteLine("Укажите глубину эха");
   var deep = int.Parse(Console.ReadLine());
 Echo(str, deep);
-}
+    }
 
 static void Echo(string saidword, int deep) {
  var modif = saidword;    
@@ -24,8 +24,7 @@ static void Echo(string saidword, int deep) {
   {
     Echo(modif, deep - 1);
   }
-
-    
+  
     
   }
 }
